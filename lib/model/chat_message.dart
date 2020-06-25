@@ -15,9 +15,9 @@ class ChatMessage {
         this.isFromMe
     });
 
-    int chatId;
-    int from;
-    int to;
+    String chatId;
+    String from;
+    String to;
     String message;
     String chatType;
     bool toUserOnlineStatus;

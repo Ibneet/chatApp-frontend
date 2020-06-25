@@ -12,8 +12,8 @@ class G {
   static SocketUtils socketUtils;
 
   static void initDummyUsers(){
-    User userA = User(id: 1, name: 'A', email: 'test@gmail.com');
-    User userB = User(id: 2, name: 'B', email: 'test123@gmail.com');
+    User userA = User(id: '1', name: 'A', email: 'test@gmail.com');
+    User userB = User(id: '2', name: 'B', email: 'test123@gmail.com');
 
     dummyUsers = List();
     dummyUsers.add(userA);

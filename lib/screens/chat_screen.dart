@@ -50,7 +50,7 @@ class _ChatUserScreenState extends State<ChatScreen> {
 
   _checkOnline(){
     ChatMessage chatMessage = ChatMessage(
-      chatId: 0,
+      chatId: null,
       from: G.loggedInUser.id,
       to: _toChatUser.id,
       toUserOnlineStatus: false,
@@ -171,7 +171,7 @@ class _ChatUserScreenState extends State<ChatScreen> {
       return;
     }
     ChatMessage chatMessage = ChatMessage(
-      chatId: 0,
+      chatId: null,
       from: G.loggedInUser.id,
       to: _toChatUser.id,
       toUserOnlineStatus: false,
